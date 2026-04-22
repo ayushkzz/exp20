@@ -4,4 +4,6 @@ WORKDIR /app
 
 COPY target/classes /app
 
+EXPOSE 8090
+
 CMD ["java", "com.devops.App"]
